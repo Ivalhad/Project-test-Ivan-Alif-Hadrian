@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <script defer type="text/javascript" src="script.js"></script>
+    <title>Suitmedia</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header-navbar">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="/">
+                    <img src="img/site-logo.png" alt="Suitmedia Logo" style="height: 50px;">
+                </a>
+            </div>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Ideas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Careers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            <div class="navbar-toggle" aria-label="Toggle navigation">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <!--Header -->
+
+    <!-- Banner -->
+    <section class="banner">
+
+        <div class="banner-image">
+            <img src="/img/banner.jpg" alt="">
+        </div>
+
+        <div class="overlay"></div>
+
+        <div class="banner-content">
+            <h1>Ideas</h1>
+            <p>Where all our great things begin</p>
+        </div>
+    </section>
+    <!-- Banner -->
+
+    <!-- Post List -->
+    <section class="post-list" id="post-list">
+        <div class="container">
+
+            <div class="summary">
+                <div class="showing"></div>
+
+                <div class="dropdown">
+                    <span class="items-per-page">Items per page:
+                        <select class="items-per-page-options">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="50">50</option>
+                        </select>
+                    </span>
+                    <span class="sort-by">Sort by:
+                        <select class="sort-options">
+                            <option value="newest">Newest</option>
+                            <option value="oldest">Oldest</option>
+                        </select>
+                    </span>
+                </div>
+            </div>
+
+            <div class="post-list-container"></div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <button class="first"><i class="bx bx-chevrons-left"></i></button>
+                <button class="prev"><i class="bx bx-chevrons-left"></i></button>
+                <span class="page-numbers"></span>
+                <button class="next"><i class='bx bx-chevron-right'></i></button>
+                <button class="last"><i class='bx bx-chevrons-right'></i></button>
+            </div>
+            <!-- Pagination -->
+        </div>
+    </section>
+    <!-- Post List -->
+
+</body>
+
+</html>
